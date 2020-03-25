@@ -80,7 +80,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600" rel="stylesheet">
     <script src="js/modernizr.js"></script>
-   
+
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -93,60 +93,71 @@
 
 <body>
 
-    <div id="header">
-        <div class="nav container">
-            <img src="img/image.png" alt="ACIS Logo" height="90px">
-            
+    <ul class="slideshow">
+        <li><span></span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+    </ul>
 
+    <div class="body">
+        <div id="header">
+            <div class="nav container">
+                <img src="img/image.png" alt="ACIS Logo" height="130px">
+
+
+            </div>
         </div>
+
+
+        <main class="container">
+            <div class="entry-text-container">
+
+                <section class="cd-intro entry-heading">
+                    <h1 class="cd-headline slide">
+                        <span class="cd-words-wrapper">
+                            <b class="is-hidden">Awareness.</b>
+                            <b class="is-hidden">Prevention.</b>
+                            <b class="is-visible">Management.</b>
+                        </span>
+                    </h1>
+                </section>
+
+                <p class="entry-sub-heading">We are here to give you all the information you need to know to prevent and
+                    manage your common allergies.</p>
+                <h4>We’re Coming soon..</h4>
+                <p class="small">Get in touch with us to find out more.</p>
+
+                <div class="va-cont">
+                    <div class="va-inn">
+                        <form action="" method="POST" onsubmit="" id="myForm" class="form-container">
+
+                            <div class="form-row">
+                                <input type="text" name="name" id="form-name" class="form-textbox" required="required"
+                                    aria-label="enter your firstname">
+                                <label for="form-name" class="form-label">Name</label>
+                            </div>
+                            <div class="form-row">
+                                <input type="email" name="email" id="form-email" class="form-textbox"
+                                    required="required" aria-label="enter your email address">
+                                <label for="form-email" class="form-label">Email</label>
+                            </div>
+
+                            <div class="form-row">
+                                <input type="submit" value="Contact Us" class="form-submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </main>
     </div>
 
-
-    <main class="container">
-        <div class="entry-text-container">
-
-            <section class="cd-intro entry-heading">
-                <h1 class="cd-headline slide">
-                    <span class="cd-words-wrapper">
-                        <b class="is-hidden">Awareness.</b>
-                        <b class="is-hidden">Prevention.</b>
-                        <b class="is-visible">Management.</b>
-                    </span>
-                </h1>
-            </section>
-
-            <p class="entry-sub-heading">We are here to give you all the information you need to know to prevent and manage your common allergies.</p>
-            <h4>We’re Coming soon..</h4>
-            <p class="small">Get in touch with us to find out more.</p>
-
-            <div class="va-cont">
-                <div class="va-inn">
-                    <form action="" method="POST" onsubmit="" id="myForm" class="form-container">
-
-                        <div class="form-row">
-                            <input type="text" name="name" id="form-name" class="form-textbox" required="required"
-                                aria-label="enter your firstname">
-                            <label for="form-name" class="form-label">Name</label>
-                        </div>
-                        <div class="form-row">
-                            <input type="email" name="email" id="form-email" class="form-textbox" required="required"
-                                aria-label="enter your email address">
-                            <label for="form-email" class="form-label">Email</label>
-                        </div>
-
-                        <div class="form-row">
-                            <input type="submit" value="Contact Us" class="form-submit">
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-            <div class="response">
-                Thanks for contacting us, we'll send you a follow up email shortly.
-            </div>
-
-        </div>
-    </main>
+    
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/main.js"></script>
 </body>
